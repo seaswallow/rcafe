@@ -18,7 +18,7 @@
 # Don't use `:all`, it's a meta role.
 
 role :app, %w{deploy@192.168.2.13}
-role :web, %w{user1@192.168.2.13}
+role :web, %w{deploy@192.168.2.13}
 role :db,  %w{deploy@192.168.2.13}
 
 
